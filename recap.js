@@ -31,4 +31,5 @@ const user = {
     }
     
 }
-console.log(user.address.street.second)
+//optional chaining
+console.log(user.address?.street?.second)
